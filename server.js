@@ -91,7 +91,6 @@ io.on("connection", (socket) => {
 });
 
 
-const localIP = "172.16.4.242";
-server.listen(9000, localIP, () => console.log(`🚀 Server running on http://${localIP}:9000`));
+server.listen(9000, () => console.log(`🚀 Server running on http://localhost:9000`));
 
 
